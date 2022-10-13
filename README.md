@@ -3,6 +3,45 @@ sports-analytics
 
 Wrangle and analyze sports statistics and betting information.
 
+------------
+
+Prerequisites
+
+You should be familiar with the following in order to use this package:
+
+- git
+- python
+- conda
+- pandas
+- jupyter notebook
+
+Directions
+------------
+
+```bash
+# Clone the repository, ideally via ssh like:
+git clone git@github.com:jsehnert101/sports-analytics.git
+
+# Create conda env with required packages
+conda env create -f environment.yml
+
+# Activate conda environment
+conda activate sports
+
+# Install local packages
+pip install -e ./src
+
+# Test environment configuration
+python test_environment.py
+
+# Get coding!
+```
+
+Please read this if you plan on contributing.
+------------
+
+This project organization allows us to effectively build out this package over time. All exploratory work should go inside a relevant subfolder within the eda (exploratory data analysis) folder. If no appropriate category for you work exists, create it. Please do not push to the src folder without a code review. If you plan on making substantial changes, create a branch and request approval from Jake Sehnert prior to merge.
+
 Project Organization
 ------------
 
@@ -50,9 +89,6 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
->>>>>>> f8c6f26 (initial commit)
