@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# sports-analytics
-Generating insights on sports with an emphasis on betting
-=======
-sports-odds
+sports-analytics
 ==============================
 
 Wrangle and analyze sports statistics and betting information.
